@@ -19,12 +19,23 @@ body {
 
 #welcome {
     font-family: sans-serif;
-    color: azure;
-    align-items: center;
+    color: transparent;
+    background: linear-gradient(90deg, #fffbe9 0%, #c2b280 40%, #9e711c 70%, #e9dcc9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1em;    
 }
 
 #contact {
     font-family: sans-serif;
     color: azure;
+    background: linear-gradient(90deg, #fffbe9, #f5e6ca, #e9dcc9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1em;
 }
 
